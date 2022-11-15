@@ -92,7 +92,7 @@
     "concurrently": "7.1.0",
     "cors": "2.8.5",
     "cross-env": "7.0.3",
-    "cypress": "^10.7.0",
+    "cypress": "https://cdn.cypress.io/beta/npm/10.8.1/darwin-arm64/10.8-minus-video-refactor-a8279f8104c46a046d37a71991aa0eccb329a202/cypress.tgz",
     "dotenv": "16.0.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-cypress": "2.12.1",
