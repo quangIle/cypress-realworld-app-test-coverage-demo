@@ -1,4 +1,4 @@
-///<reference path="types.ts" />
+// /<reference path="types.ts" />
 
 import express from "express";
 
@@ -9,12 +9,14 @@ const router = express.Router();
 // Routes
 
 //GET /bankTransfers (scoped-user)
-router.get("/", ensureAuthenticated, (req, res) => {
-  /* istanbul ignore next */
-  const transfers = getBankTransfersByUserId(req.user?.id!);
+// router.get("/", ensureAuthenticated, (req, res) => {
+//   /* istanbul ignore next */
+//   const transfers = getBankTransfersByUserId(req.user?.id!);
 
-  res.status(200);
-  res.json({ transfers });
-});
+//   res.status(200);
+//   res.json({ transfers });
+// });
 
-export default router;
+// export default router;
+const sum = (a: number, b: number) => a + b;
+export default sum;
